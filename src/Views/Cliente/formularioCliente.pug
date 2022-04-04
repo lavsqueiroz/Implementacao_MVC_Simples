@@ -1,0 +1,10 @@
+html 
+    head 
+        title Cadastro de Clientes  
+    body 
+        h1 Cadastro de Clientes 
+        a(href='/') Voltar ao menu
+        form(action='/Cliente/create', method='post')
+            label Nome do cliente 
+            input(name='name', required,type='text')
+            button(type='submit') Salvar 

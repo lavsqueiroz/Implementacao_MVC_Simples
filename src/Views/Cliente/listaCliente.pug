@@ -1,0 +1,9 @@
+html 
+    head 
+        title Listagem de Clientes
+    body 
+        h1 Listagem de Clientes 
+        a(href='/') Voltar ao menu
+        ul 
+            each cliente in clientes
+                 li= cliente.name 
